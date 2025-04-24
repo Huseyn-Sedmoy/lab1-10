@@ -1,0 +1,12 @@
+import math
+
+a = (81 ** 0.25) * math.cos(5) - (2 ** (-0.36)) * math.sin(5)
+b = math.sin(math.3 * tan(4)) * math.cos(math.sqrt(3))
+if a * b > 0.5:
+    m = math.exp**(-(abs(a - b) / (a ** 2 + b ** 2)))
+else:
+    m = a + b
+
+print(f"a = {a}")
+print(f"b = {b}")
+print(f"m = {m}")
