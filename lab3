@@ -1,0 +1,14 @@
+import math
+epsilon = 0.01
+x = 0.7
+term_index = 1
+term = math.sin(x) 
+S = term  
+sign = -1  
+while abs(term) >= epsilon:
+    term_index += 1
+    power = x ** term_index
+    term = sign * math.sin(power) / term_index
+    S += term
+    sign *= -1  
+print(S)
