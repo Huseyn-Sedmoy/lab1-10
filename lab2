@@ -1,0 +1,10 @@
+import numpy as np
+
+b_values = np.arange(5, 7.01, 0.2)
+c=[]
+for b in b_values:
+    if a >= 0.5 * b:
+        y = 5 * a**2 + 3 * b
+    else:
+        y = 7 * b - 6 * b  
+    print(f"b = {b:.1f}, y = {y}")
